@@ -1,3 +1,4 @@
+/* Styling for Element Selectors */
 body {
     font-family: sans-serif;
     margin: 0;
@@ -5,6 +6,7 @@ body {
     background-color: #f2f2f2;
 }
 
+/* Styling for the header elements */
 header {
     background-color: #ff0000;
     color: #fff;
@@ -15,6 +17,7 @@ header {
     padding: 1rem 0;
 }
 
+/* Styling for Descentents Selectors */
 header h2 {
     width: 160px;
     padding: 5px; 
@@ -23,40 +26,45 @@ header h2 {
     margin: 0;
 }
 
-header h2 a {
+header a {
     text-decoration: none;
     color: #fff;
 }
 
-img {
+/* Styling for the cover class elements */
+/* An example of a Class Selector */
+.cover {
+    position: relative;
     width: 100%;
-    height: auto;
-}
-
-.hero-content {
-    position: absolute;
-    width: 20%;
-    height: 20%;
+    height: 100vh;
+    background-image: url('images/image1.png');
+    background-size: cover;
+    background-position: center;
     display: flex;
-    flex-direction: column;
-    top: 40%;
-    background-color: #feb614;
-    color: white;
-    padding: 5px;
-    justify-content: center;
     align-items: center;
+    justify-content: flex-start; 
 }
 
-.hero-content h2 {
-    padding: 5px;
+.cover-content {
+    background-color: rgba(254, 182, 20, 0.8); 
+    color: white;
+    width: 25%;
+    height: auto;
+    padding: 10px;
+    max-width: 40%;
+}
+
+.cover-content h2 {
+    margin: 0; 
     text-align: start;
-    font-size: calc(1vw + 0.8em); 
-}
-  
-  .hero-content span {
-    font-size: calc(2vw + 0.8em);
+    font-size: calc(2vw + 0.8em); 
 }
 
+.cover-content span {
+    font-size: calc(2.5vw + 0.8em); 
+}
+
+/* Styling for the menu-bar class elements */
 .menu-bar {
     position: sticky;
     overflow: hidden;
@@ -84,6 +92,7 @@ img {
     color: white;
 }
 
+/* Styling for the features class elements */
 .features {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +119,7 @@ img {
     margin-top: 1rem;
 }
 
+/* Styling for the footer elements */
 footer {
     text-align: center;
     padding: 1rem;
